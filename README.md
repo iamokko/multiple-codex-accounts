@@ -73,6 +73,23 @@ codex-acc 2 login
 codex-acc 3 exec "explain this repo"
 ```
 
+## YOLO Mode
+
+Use `--yolo` when you want Codex to run without approval prompts or sandboxing:
+
+```bash
+codex-acc1 --yolo
+codex-acc 2 --yolo
+```
+
+The helper expands `--yolo` to Codex CLI's real flag:
+
+```bash
+--dangerously-bypass-approvals-and-sandbox
+```
+
+Only use this in folders and environments where you trust the commands Codex may run.
+
 ## Custom Slot Count
 
 Create 10 account slots instead of 5:
