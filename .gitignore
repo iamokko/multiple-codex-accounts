@@ -1,0 +1,9 @@
+.DS_Store
+
+# Local test output
+/tmp/
+
+# Never commit Codex account state or tokens.
+.codex/
+.codex-accounts/
+codex-accounts/
