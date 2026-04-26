@@ -7,7 +7,7 @@ This is useful when you want separate Codex logins such as `acc1`, `acc2`, `acc3
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/multiple-codex-accounts.git
+git clone https://github.com/iamokko/multiple-codex-accounts.git
 cd multiple-codex-accounts
 ./install.sh
 source ~/.zshrc
